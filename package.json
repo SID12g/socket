@@ -1,0 +1,16 @@
+{
+  "name": "socket",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "type": "module",
+  "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  },
+  "scripts": {
+    "start": "yarn node index.js",
+    "dev": "yarn nodemon index.js"
+  }
+}
